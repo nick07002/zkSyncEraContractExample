@@ -37,3 +37,11 @@
     ```
     yarn hardhat deploy-zksync
     ```
+    这个命令返回会给出部署好合约的地址 拷贝下来
+7. 在浏览器检查合约
+    到
+    https://goerli.explorer.zksync.io/
+    输入第六步得到的合约地址，就可以到达你刚部署好的合约界面
+8. 验证合约
+    
+    
