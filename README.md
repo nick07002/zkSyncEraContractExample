@@ -39,9 +39,18 @@
     ```
     这个命令返回会给出部署好合约的地址 拷贝下来
 7. 在浏览器检查合约
+
     到
     https://goerli.explorer.zksync.io/
     输入第六步得到的合约地址，就可以到达你刚部署好的合约界面
 8. 验证合约
+    在以上页面中点击contract,
+    Contract name填入 CoinFlip
+    Zksolc version选择v1.3.5
+    Solc version 选择 0.8.17   
+    代码栏把 contracts/CoinFlip.sol 的内容拷贝进去 
+    验证合约
+9. 合约验证成功之后，就可以直接从网页端调用合约了。
+   比如这个合约 read可以读consecutiveWins, write可以写flip
     
     
